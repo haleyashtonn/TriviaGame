@@ -51,7 +51,6 @@ $(document).ready(function () {
 		},
 	];
 
-
 	var hide = function (elementId) {
 		$(elementId).css("visibility", "hidden");
 	};
@@ -136,14 +135,14 @@ $(document).ready(function () {
 
 		write('#startTitle', '<h3>Game Over!</h3>');
 		$('#scores').append('<h3>Results:</h3>');
-		$('#scores').append('<h3>Total Questions Answered: ' + quesAns + '</h3>');
-		$('#scores').append('<h3>Number of correct answers: ' + correct + '</h3>');
-		$('#scores').append('<h3>Number of incorrect answers: ' + incorrect + '</h3>');
+		$('#scores').append('<h3>Questions answered: ' + quesAns + '</h3>');
+		$('#scores').append('<h3>Questions correctly answered: ' + correct + '</h3>');
+		$('#scores').append('<h3>Questions incorrectly answered: ' + incorrect + '</h3>');
 		show('#reset');
 	};
 
 	var nextQuestion = function () {
-		$('#image').css('display', 'none');
+		
 		$('#questions').css('display', 'initial');
 		$('#answers').css('display', 'initial');
 		$('#answerMsg').css('display', 'none');
