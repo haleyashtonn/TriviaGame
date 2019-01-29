@@ -162,8 +162,6 @@ $(document).ready(function () {
 			$('#answers').css('display', 'none');
 			$('#questions').css('display', 'none');
 			$('#answerMsg').css('display', 'initial');
-			$('#image').attr('src', trivia[triviaQuestion].gif);
-			$('#image').css('display', 'initial');
 			$('#answerMsg').html('<h3> You chose ' + answers[value] + '.</h3> <br><h3>The correct answer was ' + answers[correctAnswer] + '.</h3>');
 			setInterval(nextQuestion, 5 * 1000);
 			quesAns ++;
