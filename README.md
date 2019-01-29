@@ -9,4 +9,4 @@ When the page loads, click *Start* to begin
 
 As the questions load, keep in mind that you're being timed as you answer!
 
-![Trivia Question](/images/triviaQuestion.png)
+![Trivia Question](triviaQuestion.png)
