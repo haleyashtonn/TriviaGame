@@ -1,0 +1,34 @@
+body {
+	background-image: url('../images/coffee.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+h1.header{
+	font-family: 'Righteous', cursive;
+	color: gray;
+}
+.jumbotron {
+	text-align: center;
+	height: 100%;
+}
+#startTitle {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+section.container{
+	background-color: maroon;
+	padding: 60px;
+}
+#start {
+	color: black;
+}
+.answer {
+	background-color: grey;
+	border: solid #ccccb3 2px;
+	visibility: hidden;
+}
+#reset {
+	visibility: hidden;
+	color: black;
+}

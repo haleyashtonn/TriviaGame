@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Coffee Trivia!</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Righteous" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+<header>
+	<h1 class="header">Welcome to Coffee Trivia!</h1>
+</header>
+<section class="container">
+	<div class="row-lg-12">
+		
+		<div class="jumbotron">
+			<h2 id="startTitle">Press Start to Begin!</h2>
+			
+			<div id="questions"></div>
+			<div id="answerMsg"></div>
+
+			
+			<div id="answers">
+
+				<div class="answer col-md-4" id="answer0" value="0"></div>
+				<div class="answer col-md-4" id="answer1" value="1"></div>
+				<div class="answer col-md-4" id="answer2" value="2"></div>
+				
+			</div>
+			
+			<div id="timer"></div>
+
+			<div id="buttons">
+				<div class="btn btn-success" type="button" text="Start" id="start">Start</div>
+				<div class="btn btn-primary" type="button" text="Reset" id="reset">Start Over</div>
+			</div>
+
+			<div id="scores"></div>
+		</div>
+		
+
+	</div>
+	
+</section>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
